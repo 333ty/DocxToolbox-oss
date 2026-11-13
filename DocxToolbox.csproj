@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType> <!-- 改为 WinExe，这样双击运行不会弹出黑框 -->
+    <TargetFramework>net8.0-windows</TargetFramework> <!-- 必须带上 -windows -->
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms> <!-- 启用 WinForms -->
+    <AssemblyName>DocxToolbox</AssemblyName>
+    <RootNamespace>DocxToolbox</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="3.0.1" />
+  </ItemGroup>
+
+</Project>
+

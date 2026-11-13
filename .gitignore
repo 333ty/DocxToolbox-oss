@@ -1,0 +1,10 @@
+bin/
+obj/
+*.exe
+*.rar
+*.zip
+.reasonix/
+.workbuddy/
+*.wtmp
+.DS_Store
+Thumbs.db
